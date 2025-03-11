@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block title %}Our Services{% endblock %}
+
+{% block content %}
+    <h1>These are our services</h1>
+    <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusantium amet asperiores consequatur cumque delectus dicta eveniet, facilis hic illo impedit incidunt, nostrum nulla obcaecati, quibusdam quo soluta totam voluptatem?</span><span>Alias, aperiam beatae blanditiis corporis deleniti dolor ea esse fugit harum ipsa magni omnis reprehenderit tempora tenetur vel
+        vero voluptates. Eaque eos itaque laudantium ut velit, voluptatem? Aliquid, dolore, voluptatum!</span></p>
+
+    <img src="{% static 'images/page3.jpeg' %}" alt="" width="500" height="400">
+    <img src="{% static 'images/page4.jpeg' %}" alt="" height="400" width="500">
+    <img src="{% static 'images/page2.jpeg' %}" alt="" width="500" height="400">
+
+{% endblock %}
